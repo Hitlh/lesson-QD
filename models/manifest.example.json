@@ -1,0 +1,15 @@
+{
+  "qv_model_best.ckpt": {
+    "sha256": "d9fd9355ae641ab77849a7434892aa4786ff4e0e8c8c6faee90466ed19f3",
+    "source": "Separately supplied project QVHighlights reproduction checkpoint"
+  },
+  "tacos_model_best.ckpt": {
+    "sha256": "1c7ef2798b31de988f563c134949829dc04ac506d7ad455b606dc56fa67881a9",
+    "source": "Separately supplied project TACoS fine-tuned checkpoint"
+  },
+  "window_ranker.pt": {
+    "sha256": "a432b899a256f10a5ae75c7e1c957552a5d8de8debe89e0d1c9e1f771ec51228",
+    "requires": "tacos_model_best.ckpt",
+    "source": "Separately supplied project window relevance head"
+  }
+}

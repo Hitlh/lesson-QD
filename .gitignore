@@ -1,0 +1,35 @@
+# Runtime state and local settings
+.env
+.env.*
+!.env.example
+!**/.env.example
+.venv/
+.conda/
+__pycache__/
+*.py[cod]
+*.tsbuildinfo
+.DS_Store
+# Generated assets and private/large files
+**/node_modules/
+**/dist/
+models/*
+!models/README.md
+!models/manifest.example.json
+data/
+features/
+storage/
+outputs/
+**/results/
+*.ckpt
+*.pt
+*.pth
+*.pkl
+*.npz
+*.npy
+*.mp4
+*.mov
+*.webm
+*.log
+*.zip
+*.docx
+*.dotx

@@ -1,0 +1,18 @@
+# Python 3.11. Install matching torch/torchvision separately (see README).
+fastapi>=0.115,<1
+uvicorn[standard]>=0.34,<1
+pydantic>=2,<3
+python-multipart>=0.0.20,<1
+python-dotenv>=1,<2
+numpy>=1.26,<3
+scipy>=1.13,<2
+pandas>=2,<4
+tqdm>=4.66,<5
+ffmpeg-python>=0.2,<1
+ftfy>=6,<7
+regex>=2024
+Pillow>=10,<13
+einops>=0.8,<1
+fvcore>=0.1.5
+iopath>=0.1.9
+PyYAML>=6,<7
